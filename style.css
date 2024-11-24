@@ -1,0 +1,104 @@
+body{
+    background-color:#102B3F;
+}
+
+.answers{
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #062726;
+    width: 90%;
+    margin: auto;
+    height: 81%;
+    border-style: double;
+    border-color: #B4ADEA;
+    border-width: 4px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+h1{
+    color: #B4ADEA;
+    text-align: center;
+    font-family: "Fjalla One", serif;
+    font-weight: 400;
+}
+
+label{
+    color: #72b8a6;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 1000;
+    font-size: 15px;
+}
+
+.formlewis{
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: 5%;
+    background-color: #d4d0f7;
+    color: #102B3F;
+    border-style: groove;
+    border-color: #102B3F;
+    border-width: 2px;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 1000;
+}
+
+.formlewis:hover{
+    width: 51%;
+    height: 6%;
+    background-color: #9993c7;
+    color: #d4d0f7;
+}
+
+.moleculeName{
+    color: #A9FBD7;
+    text-align: center;
+    text-decoration: 1px underline;
+    font-family: "Fjalla One", serif;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.ansDisp{
+    color: #72b8a6;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 1000;
+    font-size: 28px;
+}
+
+.innerFlex{
+    width: 49%;
+    border-style: solid;
+    border-width: 1px;
+    color: #A9FBD7;
+    box-sizing: border-box;
+    padding: 10px;
+    
+}
+
+.check{
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: 7%;
+    background-color: #A9FBD7;
+    color: #478978;
+    font-weight: 900;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 1000;
+}
+
+.check:hover{
+    width: 81%;
+    height: 8%;
+    background-color: #478978;
+    color: #A9FBD7;
+}
+
+input{
+    width: 50%;
+}
